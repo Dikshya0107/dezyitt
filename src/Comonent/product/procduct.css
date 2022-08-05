@@ -1,0 +1,28 @@
+.product{
+    background-image: url('https://static.wixstatic.com/media/ec9816_6cad91bd1e0e48f19fb000611fe63bb7~mv2.png/v1/fill/w_1210,h_768,al_c,q_95/ec9816_6cad91bd1e0e48f19fb000611fe63bb7~mv2.webp');
+    padding: 50px;
+    color: white;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.div{
+    
+    display: flex;
+}
+.head{
+    font-weight: 700;
+   font-size: 50px;
+   line-height: 55px;
+   text-align: center; 
+   color: white;
+ }
+.text2{
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+ }
+ 

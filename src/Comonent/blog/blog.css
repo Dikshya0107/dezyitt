@@ -1,0 +1,12 @@
+.blogsection{
+    background-image:url('https://static.wixstatic.com/media/ec9816_2eb87f9f47224104b16ec5e3cc468f59~mv2.png/v1/fill/w_1366,h_631,al_c,q_95/ec9816_2eb87f9f47224104b16ec5e3cc468f59~mv2.webp') !important;
+    color: cornsilk;
+    text-align: center;
+    padding: 50px 100px ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+h4{
+    padding-bottom:  50px ;
+}

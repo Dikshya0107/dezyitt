@@ -1,0 +1,1 @@
+https://static.wixstatic.com/media/ec9816_ae5fd32a575b4a3db1445d009625957f~mv2.png/v1/fill/w_350,h_563,al_c,q_95/Design%20Thinking%20Sprint%20-%20Centre4.webp
