@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dezyitt/static/css/main.3e3a34de.chunk.css",
+    "main.js": "/dezyitt/static/js/main.24767e5f.chunk.js",
+    "main.js.map": "/dezyitt/static/js/main.24767e5f.chunk.js.map",
+    "runtime-main.js": "/dezyitt/static/js/runtime-main.119f49d5.js",
+    "runtime-main.js.map": "/dezyitt/static/js/runtime-main.119f49d5.js.map",
+    "static/css/2.c1256375.chunk.css": "/dezyitt/static/css/2.c1256375.chunk.css",
+    "static/js/2.a658f5e7.chunk.js": "/dezyitt/static/js/2.a658f5e7.chunk.js",
+    "static/js/2.a658f5e7.chunk.js.map": "/dezyitt/static/js/2.a658f5e7.chunk.js.map",
+    "index.html": "/dezyitt/index.html",
+    "static/css/2.c1256375.chunk.css.map": "/dezyitt/static/css/2.c1256375.chunk.css.map",
+    "static/css/main.3e3a34de.chunk.css.map": "/dezyitt/static/css/main.3e3a34de.chunk.css.map",
+    "static/js/2.a658f5e7.chunk.js.LICENSE.txt": "/dezyitt/static/js/2.a658f5e7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.119f49d5.js",
+    "static/css/2.c1256375.chunk.css",
+    "static/js/2.a658f5e7.chunk.js",
+    "static/css/main.3e3a34de.chunk.css",
+    "static/js/main.24767e5f.chunk.js"
+  ]
+}
