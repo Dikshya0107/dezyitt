@@ -8,7 +8,7 @@ export const Product = () => {
       <div className="product__inner">
         <h1 className="head">Our Product</h1>
         <p className="product__description">
-          Dezy It, is your personal design sprint master. It is your design thinking guide and
+          DezyIt is your personal design sprint master. It is your design thinking guide and
           companion to help you facilitate design sprints, to innovate, pivot and improve on the
           user experience of your product.
         </p>

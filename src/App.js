@@ -8,7 +8,6 @@ import { Product } from './components/product/product';
 import StatsBar from './components/StatsBar/StatsBar';
 import Testimonials from './components/Testimonials/Testimonials';
 import FAQ from './components/FAQ/FAQ';
-import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
 
@@ -21,9 +20,8 @@ function App() {
       <WhyUs />
       <StatsBar />
       <Testimonials />
-      <FAQ />
       <Blog />
-      <Contact />
+      <FAQ />
       <Footer />
     </div>
   );

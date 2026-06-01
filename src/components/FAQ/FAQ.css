@@ -1,31 +1,96 @@
 .faq {
-  padding: 64px 24px;
-  background: #fff;
+  padding: 72px 24px 80px;
+  background: #f7f6fc;
+}
+
+.faq__header {
+  max-width: 640px;
+  margin: 0 auto 40px;
+  text-align: center;
 }
 
 .faq__heading {
-  text-align: center;
   color: #302b70;
-  font-size: 2rem;
+  font-size: clamp(1.75rem, 4vw, 2rem);
   font-weight: 700;
-  margin-bottom: 36px;
+  margin: 0 0 12px;
+  line-height: 1.2;
+}
+
+.faq__subheading {
+  color: #5c5a72;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
 }
 
 .faq__accordion-wrap {
-  max-width: 720px;
+  max-width: 760px;
   margin: 0 auto;
 }
 
-.faq .accordion-button {
-  color: #302b70;
+.faq-accordion .accordion-item {
+  margin-bottom: 12px;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 4px 18px rgba(48, 43, 112, 0.08);
+}
+
+.faq-accordion .accordion-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.faq-accordion .accordion-button {
+  padding: 1.15rem 1.35rem;
+  font-size: 1rem;
   font-weight: 600;
-}
-
-.faq .accordion-button:not(.collapsed) {
-  background-color: #f0effa;
   color: #302b70;
+  background: #fff;
+  box-shadow: none;
 }
 
-.faq .accordion-button:focus {
-  box-shadow: 0 0 0 0.2rem rgba(120, 124, 209, 0.35);
+.faq-accordion .accordion-button:not(.collapsed) {
+  background: #302b70;
+  color: #fff;
+  box-shadow: none;
+}
+
+.faq-accordion .accordion-button:not(.collapsed)::after {
+  filter: brightness(0) invert(1);
+}
+
+.faq-accordion .accordion-button:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(120, 124, 209, 0.35);
+  z-index: 1;
+}
+
+.faq-accordion .accordion-button::after {
+  background-size: 1rem;
+}
+
+.faq-accordion .accordion-body {
+  padding: 0 1.35rem 1.25rem;
+  color: #444;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  background: #fff;
+}
+
+.faq-accordion .accordion-button:not(.collapsed) + .accordion-collapse .accordion-body {
+  padding-top: 0.25rem;
+  border-top: 1px solid rgba(48, 43, 112, 0.08);
+}
+
+@media screen and (max-width: 768px) {
+  .faq {
+    padding: 56px 20px 48px;
+  }
+
+  .faq-accordion .accordion-button {
+    padding: 1rem 1.1rem;
+    font-size: 0.95rem;
+  }
 }

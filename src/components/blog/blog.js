@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import Pagination from 'react-js-pagination';
 import './blog.css';
 import Cards from './Card';
+import BlogPagination from './BlogPagination';
 import { data, ITEMS_PER_PAGE } from './CardData';
 
 const Blog = () => {
   const [activePage, setActivePage] = useState(1);
+  const totalPages = Math.ceil(data.length / ITEMS_PER_PAGE);
 
   const indexOfLast = activePage * ITEMS_PER_PAGE;
   const indexOfFirst = indexOfLast - ITEMS_PER_PAGE;
@@ -13,23 +14,19 @@ const Blog = () => {
 
   const handlePageChange = (pageNumber) => {
     setActivePage(pageNumber);
-    document.getElementById('movetoblog')?.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('movetoblog')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
 
   return (
     <section className="blogsection">
       <div id="movetoblog" aria-hidden="true" />
-      <h4 className="blogsection__title">OUR BLOGS</h4>
+      <h2 className="blogsection__title">OUR BLOGS</h2>
       <Cards posts={currentPosts} />
-      <div className="blog-pagination">
-        <Pagination
-          activePage={activePage}
-          itemsCountPerPage={ITEMS_PER_PAGE}
-          totalItemsCount={data.length}
-          pageRangeDisplayed={5}
-          onChange={handlePageChange}
-        />
-      </div>
+      <BlogPagination
+        currentPage={activePage}
+        totalPages={totalPages}
+        onPageChange={handlePageChange}
+      />
     </section>
   );
 };

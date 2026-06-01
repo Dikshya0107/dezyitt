@@ -14,7 +14,7 @@ const Home = () => (
           </h1>
         </div>
 
-        <p className="hero-tagline">Time to innovate? let Dezy it!</p>
+        <p className="hero-tagline">Time to innovate? Let DezyIt!</p>
 
         <div className="hero-download">
           <h2>Download Now!</h2>

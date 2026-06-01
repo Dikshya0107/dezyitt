@@ -15,18 +15,13 @@ export const MenuItems = [
     cName: 'nav-links',
   },
   {
-    title: 'FAQ',
-    url: '#movetofaq',
-    cName: 'nav-links',
-  },
-  {
     title: 'Blogs',
     url: '#movetoblog',
     cName: 'nav-links',
   },
   {
-    title: 'Contact',
-    url: '#movetocontact',
+    title: 'FAQ',
+    url: '#movetofaq',
     cName: 'nav-links',
   },
 ];

@@ -1,24 +1,24 @@
-# DezyIt — Design Sprint Landing Dashboard
+# DezyIt
 
-A single-page marketing dashboard for **[DezyIt](https://www.dezyit.com)** — a mobile app that guides teams through **Design Sprints** and **Design Thinking** workshops. The site introduces the product, explains the methodology, highlights differentiators, and surfaces blog content with app-store download links.
+A single-page marketing site for **[DezyIt](https://www.dezyit.com)** — a mobile app that guides teams through **Design Sprints** and **Design Thinking** workshops. The site introduces the product, explains the methodology, highlights differentiators, and surfaces blog content with app-store download links.
 
 Built with **React 17** and **Create React App**, styled with **Bootstrap 5** and custom CSS.
 
 ---
 
-## What this dashboard is for
+## What this site is for
 
 | Goal | How the app supports it |
 |------|-------------------------|
 | **Product awareness** | Hero, product screenshots, and store badges (Google Play & App Store) |
 | **Education** | “What is a Design Sprint?” copy and imagery from the GV-style 5-day process |
-| **Trust & differentiation** | “Why Dezy IT?” — Collaboration, Creativity, Empathy |
+| **Trust & differentiation** | “Why DezyIt?” — Collaboration, Creativity, Empathy |
 | **Content marketing** | Blog card grid with **working pagination** driven by `CardData.js` |
 | **Social proof** | Stats bar, testimonials, and FAQ accordion |
 | **Lead capture** | Contact form and footer newsletter signup (client-side validation) |
 | **Navigation** | Navbar + footer quick links with smooth in-page anchors |
 
-This is a **landing / marketing dashboard**, not an authenticated admin panel. It is ideal for portfolios, internship demos, and recruiter reviews when paired with a live deploy link and a short “what I built” note.
+This is a **landing / marketing site**, not an authenticated admin panel. It is ideal for portfolios, internship demos, and recruiter reviews when paired with a live deploy link and a short “what I built” note.
 
 ---
 
@@ -113,7 +113,7 @@ src/
 
 ## Page order
 
-`Navbar` → `Home` → `Product` → `Why Us` → `StatsBar` → `Testimonials` → `FAQ` → `Blog` → `Contact` → `Footer`
+`Navbar` → `Home` → `Product` → `Why Us` → `StatsBar` → `Testimonials` → `Blog` → `FAQ` → `Contact` → `Footer`
 
 ---
 

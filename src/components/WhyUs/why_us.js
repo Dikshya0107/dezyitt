@@ -8,7 +8,7 @@ const features = [
       'https://static.wixstatic.com/media/ec9816_d3949d97e43843b8a292ffe04eacce85~mv2.png/v1/fill/w_600,h_450,al_c,q_95/Design%20Sprint%20-%20Design%20Thinking%20-%20Graphi.webp',
     imageAlt: 'Team collaboration in design sprint',
     text:
-      "The product development journey can become a linear process where there is very minimal interaction between the product team and all the other stakeholders, including the marketers, the sales team and customer service. Dezy It, brings in a collaborative space for your team to leverage design thinking and work together and participate in the ideation process, sharing valuable insights which would shape the product and its features. It's a process which truly gets your whole team invested!",
+      "The product development journey can become a linear process where there is very minimal interaction between the product team and all the other stakeholders, including the marketers, the sales team and customer service. DezyIt brings in a collaborative space for your team to leverage design thinking and work together and participate in the ideation process, sharing valuable insights which would shape the product and its features. It's a process which truly gets your whole team invested!",
     reverse: false,
   },
   {
@@ -36,7 +36,7 @@ const WhyUs = () => (
     <div id="movetowhy_us" aria-hidden="true" />
     <div className="div_1">
       <div className="why_us">
-        <h2>Why Dezy IT?</h2>
+        <h2>Why DezyIt?</h2>
       </div>
 
       {features.map((feature) => (

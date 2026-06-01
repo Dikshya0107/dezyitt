@@ -51,7 +51,8 @@ const Contact = () => {
     <section className="contact" aria-labelledby="contact-heading">
       <div id="movetocontact" aria-hidden="true" />
       <div className="contact__inner">
-        <div className="contact__info">
+        <div className="contact__info-card">
+          <span className="section-eyebrow section-eyebrow--left">Contact</span>
           <h2 id="contact-heading" className="contact__heading">
             Get in touch
           </h2>
@@ -61,19 +62,31 @@ const Contact = () => {
           </p>
           <ul className="contact__details">
             <li>
-              <i className="fas fa-envelope" aria-hidden="true" />
-              <a href="mailto:hello@dezyit.com">hello@dezyit.com</a>
+              <span className="contact__icon" aria-hidden="true">
+                <i className="fas fa-envelope" />
+              </span>
+              <div className="contact__detail-text">
+                <span className="contact__detail-label">Email</span>
+                <a href="mailto:hello@dezyit.com">hello@dezyit.com</a>
+              </div>
             </li>
             <li>
-              <i className="fas fa-globe" aria-hidden="true" />
-              <a href="https://www.dezyit.com" target="_blank" rel="noopener noreferrer">
-                www.dezyit.com
-              </a>
+              <span className="contact__icon" aria-hidden="true">
+                <i className="fas fa-globe" />
+              </span>
+              <div className="contact__detail-text">
+                <span className="contact__detail-label">Website</span>
+                <a href="https://www.dezyit.com" target="_blank" rel="noopener noreferrer">
+                  www.dezyit.com
+                </a>
+              </div>
             </li>
           </ul>
         </div>
 
         <form className="contact__form" onSubmit={handleSubmit} noValidate>
+          <h3 className="contact__form-title">Send a message</h3>
+
           {submitted && (
             <p className="contact__success" role="status">
               Thanks! Your message has been received. We&apos;ll be in touch soon.
@@ -90,6 +103,7 @@ const Contact = () => {
               onChange={handleChange}
               className={errors.name ? 'contact__input--error' : ''}
               autoComplete="name"
+              placeholder="Your name"
             />
             {errors.name && <span className="contact__error">{errors.name}</span>}
           </div>
@@ -104,6 +118,7 @@ const Contact = () => {
               onChange={handleChange}
               className={errors.email ? 'contact__input--error' : ''}
               autoComplete="email"
+              placeholder="you@example.com"
             />
             {errors.email && <span className="contact__error">{errors.email}</span>}
           </div>
@@ -117,6 +132,7 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               className={errors.message ? 'contact__input--error' : ''}
+              placeholder="How can we help?"
             />
             {errors.message && <span className="contact__error">{errors.message}</span>}
           </div>

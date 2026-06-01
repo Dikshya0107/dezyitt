@@ -33,11 +33,16 @@ const faqItems = [
 const FAQ = () => (
   <section className="faq" aria-labelledby="faq-heading">
     <div id="movetofaq" aria-hidden="true" />
-    <h2 id="faq-heading" className="faq__heading">
-      Frequently asked questions
-    </h2>
+    <div className="faq__header">
+      <h2 id="faq-heading" className="faq__heading">
+        Frequently asked questions
+      </h2>
+      <p className="faq__subheading">
+        Quick answers about design sprints, the app, and getting your team started.
+      </p>
+    </div>
     <div className="faq__accordion-wrap">
-      <Accordion defaultActiveKey="0" flush>
+      <Accordion defaultActiveKey="0" className="faq-accordion">
         {faqItems.map((item, index) => (
           <Accordion.Item eventKey={String(index)} key={item.question}>
             <Accordion.Header>{item.question}</Accordion.Header>

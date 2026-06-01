@@ -9,7 +9,6 @@ const footerLinks = [
   { title: 'Why Us', url: '#movetowhy_us' },
   { title: 'Blogs', url: '#movetoblog' },
   { title: 'FAQ', url: '#movetofaq' },
-  { title: 'Contact', url: '#movetocontact' },
 ];
 
 const Footer = () => {

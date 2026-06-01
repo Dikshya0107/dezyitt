@@ -21,3 +21,19 @@ img {
 #root {
   overflow-x: hidden;
 }
+
+/* Shared section labels (FAQ, Contact, etc.) */
+.section-eyebrow {
+  display: block;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #ef9f42;
+  margin-bottom: 10px;
+}
+
+.section-eyebrow--left {
+  text-align: left;
+}
