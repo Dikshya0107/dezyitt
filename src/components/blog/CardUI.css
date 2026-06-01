@@ -1,0 +1,50 @@
+.card-title {
+  margin-bottom: 0;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.blog-card {
+  width: 100%;
+  max-width: 300px;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.blog-card__meta ul {
+  color: #808080;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.blog-card__meta li {
+  display: inline;
+}
+
+.blog-card__link {
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  padding: 0 10px 16px;
+}
+
+.blog-cards-row {
+  justify-content: center;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

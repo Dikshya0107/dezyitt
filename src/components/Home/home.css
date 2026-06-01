@@ -1,0 +1,136 @@
+.sec1 {
+  background-image: url("https://static.wixstatic.com/media/ec9816_2eb87f9f47224104b16ec5e3cc468f59~mv2.png/v1/fill/w_1366,h_425,al_c,q_95/ec9816_2eb87f9f47224104b16ec5e3cc468f59~mv2.webp");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 32px 24px;
+  min-height: 425px;
+}
+
+.frontText {
+  flex: 1 1 320px;
+  max-width: 540px;
+  padding: 0 12px;
+}
+
+.hero-title-wrap {
+  padding: 20px 0;
+}
+
+.hero-tagline {
+  color: #ffffff;
+  padding-bottom: 10px;
+  margin: 20px 0 0;
+}
+
+.hero-download h2 {
+  color: #ffffff;
+  padding: 40px 0 10px;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.hero-download p {
+  color: #ffffff;
+  margin: 0;
+}
+
+.play {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-top: 20px;
+}
+
+.play img,
+.play .play_img {
+  width: 136px;
+  height: 43px;
+}
+
+.sec2 {
+  padding: 40px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.img_div {
+  flex: 1 1 280px;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.sec2_img {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+}
+
+.design {
+  flex: 1 1 280px;
+  max-width: 480px;
+  text-align: justify;
+  align-self: center;
+}
+
+.heading {
+  font-family: 'avenir-lt-w01_35-light1475496', 'sans-serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(1.75rem, 4vw, 50px);
+  line-height: 1.1;
+  color: #302b70;
+  margin: 0 0 24px;
+}
+
+.head4 {
+  font-family: 'avenir-lt-w01_35-light1475496', 'sans-serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(1.75rem, 4vw, 50px);
+  line-height: 1.1;
+  color: #ffffff;
+  margin: 0;
+}
+
+.text {
+  font-family: 'avenir-lt-w01_35-light1475496', 'sans-serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #302b70;
+  margin: 0;
+}
+
+.specs {
+  max-height: 550px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.carouselStyles {
+  flex: 1 1 280px;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .sec1 {
+    min-height: auto;
+  }
+
+  .hero-download h2 {
+    padding-top: 24px;
+  }
+}
