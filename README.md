@@ -130,7 +130,5 @@ Marketing copy and images reference the official **DezyIt** brand and [dezyit.co
 
 ## Author
 
-Add your name, LinkedIn, and **live demo URL** here so recruiters can open the app in one click.
-
 ```markdown
 **Pratikshya Purohit** — [LinkedIn](https://www.linkedin.com/in/pratikshya-purohit/)
