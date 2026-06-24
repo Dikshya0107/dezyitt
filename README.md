@@ -54,9 +54,6 @@ src/
 │   └── Footer/            # Links, newsletter, store badges
 └── images/                # Local WebP assets (optional; many URLs are remote)
 ```
-
----
-
 ---
 
 ## Getting started
