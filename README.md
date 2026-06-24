@@ -143,23 +143,13 @@ npm run build
 
 ---
 
-## Deploy (recommended for recruiters)
-
+## Deploy 
 ```bash
 npm run build
 npx serve -s build
 ```
 
 Or deploy the `build/` folder to [Vercel](https://vercel.com), [Netlify](https://netlify.com), or GitHub Pages. Add the live URL and a screenshot to the Author section below.
-
-### Optional next steps
-
-| Idea | Notes |
-|------|--------|
-| Live demo URL | Highest impact for portfolio reviews |
-| React Router | `/blog/:slug` for individual posts |
-| Unit tests | Navbar toggle, contact validation, pagination |
-| Dark mode | CSS variables + context |
 
 ---
 
@@ -204,5 +194,4 @@ Marketing copy and images reference the official **DezyIt** brand and [dezyit.co
 Add your name, LinkedIn, and **live demo URL** here so recruiters can open the app in one click.
 
 ```markdown
-**Your Name** — [LinkedIn](https://linkedin.com/in/your-profile) · [Live demo](https://your-deploy-url.vercel.app)
-```
+**Pratikshya Purohit** — [LinkedIn](https://www.linkedin.com/in/pratikshya-purohit/)
